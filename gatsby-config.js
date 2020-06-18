@@ -1,11 +1,29 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
+const siteMetadata = {
+  title: `Museminds - Web development and design`,
+  keywords: `web developer costa rica, desarrollador web costa rica, diseñador web, website designer, frontend developer, frontend masters`,
+  description: `I enjoy creating growth oriented digital products with a clean approach in mind`,
+  image: `${__dirname}/src/images/favicon.png`,
+  siteUrl: `https://www.museminds.com`,
+  siteLanguage: `en-US`,
+  siteLocale: `en-US`,
+  twitterUsername: `@museminds`,
+  author: `museminds`,
+  favicon: `${__dirname}/src/images/favicon.png`,
+  backgroundColor: `#FFFFFF`,
+  themeColor: `#0E153A`,
+};
+
 module.exports = {
-  siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-  },
+  siteMetadata: siteMetadata,
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-playground`,
+    `gatsby-plugin-smoothscroll`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -16,19 +34,50 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-styled-components`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        displayName: true,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `iluminext`,
+        short_name: `iluminext`,
+        start_url: `/`,
+        background_color: `#FFFFFF`,
+        theme_color: `#0E153A`,
+        display: `minimal-ui`,
+        icon: `src/images/favicon.png`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Noto Sans HK\:200,300,400,500,600,700,800`],
+      },
+    },
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-scroll-reveal`,
+      options: {
+        threshold: 0.1,
+        once: true,
+        disable: false,
+        selector: '[data-sal]',
+        animateClassName: 'sal-animate',
+        disabledClassName: 'sal-disabled',
+        rootMargin: '0% 50%',
+        enterEventName: 'sal:in',
+        exitEventName: 'sal:out',
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
   ],
-}
+};

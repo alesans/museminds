@@ -2,24 +2,24 @@ import React from 'react';
 
 import Layout from '../components/base/Layout';
 import SEO from '../components/base/Seo';
-import Hero from '../components/box/home/Hero';
-import Service from '../components/box/home/Service';
-import Project from '../components/box/home/Project';
+import Hero from '../components/box/company/Hero';
+import Company from '../components/box/company/Company';
+import Team from '../components/box/company/Team';
 import Contact from '../components/box/home/Contact';
 
 import { Scroll, Main } from '../styles';
 
-const IndexPage = () => (
+const CompanyPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Company" />
     <Main>
       <Hero />
       <Scroll id="scroll" />
-      <Service />
-      <Project />
+      <Company />
+      <Team />
       <Contact />
     </Main>
   </Layout>
 );
 
-export default IndexPage;
+export default CompanyPage;
