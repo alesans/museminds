@@ -24,7 +24,7 @@ const ContactForm = () => {
     setServerState({ submitting: true });
     axios({
       method: 'post',
-      url: 'https://formspree.io/',
+      url: 'https://formspree.io/mqkylqby',
       data: new FormData(form),
     })
       .then((r) => {

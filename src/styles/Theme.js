@@ -707,7 +707,6 @@ export const NavLink = styled(Link)`
 export const LogoLink = styled(Link)`
   font-size: ${(props) => props.theme.fontSize[props.size] || props.theme.fontSize.base};
   ${Content}
-  width: 80%;
   text-decoration: ${(props) => props.theme.properties.none};
   color: ${(props) => props.theme.color[props.color] || props.theme.color.light};
   transition: ${(props) => props.theme.transition[props.transition] || props.theme.transition.quick};
