@@ -42,8 +42,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `iluminext`,
-        short_name: `iluminext`,
+        name: `museminds`,
+        short_name: `museminds`,
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#0E153A`,
