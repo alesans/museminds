@@ -141,7 +141,7 @@ const ServiceValues = () => {
           <H3 align="center" mb="sm">
             Audio production
           </H3>
-          <P>We create sound experiences suitable for your brand.</P>
+          <P>We create sound suitable for your brand.</P>
         </Wrapper>
       </Wrapper>
       <Wrapper justify="center" justifyi="center">
