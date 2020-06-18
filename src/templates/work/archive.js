@@ -97,7 +97,7 @@ const Archive = (props) => {
 
   return (
     <Layout>
-      <SEO title="Productos" keywords={['LED']} />
+      <SEO title="Work" keywords={['LED']} />
       <Main>
         {/* <Hero /> */}
         <Scroll id="scroll" />
