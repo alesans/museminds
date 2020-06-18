@@ -34,9 +34,9 @@ const ServiceValues = () => {
             data-sal-easing="ease-out-bounce"
           />
           <H3 align="center" mb="sm">
-            Web Development
+            Development
           </H3>
-          <P>We craft digital products with the latest technologies.</P>
+          <P>We craft digital products with the latest skills.</P>
         </Wrapper>
         <Wrapper
           bg="backgroundAlt"
@@ -57,7 +57,7 @@ const ServiceValues = () => {
           <H3 align="center" mb="sm">
             UI/UX Design
           </H3>
-          <P>We build robust products that improve functionality</P>
+          <P>We build robust products that improve usability.</P>
         </Wrapper>
         <Wrapper
           bg="backgroundAlt"
@@ -99,7 +99,7 @@ const ServiceValues = () => {
           <H3 align="center" mb="sm">
             Digital Strategy
           </H3>
-          <P>We colaborate with your business goals</P>
+          <P>We colaborate with your business goals.</P>
         </Wrapper>
         <Wrapper
           bg="backgroundAlt"
@@ -118,9 +118,9 @@ const ServiceValues = () => {
             data-sal-easing="ease-out-bounce"
           />
           <H3 align="center" mb="sm">
-            Video post-production
+            Post-production
           </H3>
-          <P>We create a great video experience for your users.</P>
+          <P>We craft video content for your users.</P>
         </Wrapper>
         <Wrapper
           bg="backgroundAlt"
@@ -141,7 +141,7 @@ const ServiceValues = () => {
           <H3 align="center" mb="sm">
             Audio production
           </H3>
-          <P>We create sound experiences suitable for your brand</P>
+          <P>We create sound experiences suitable for your brand.</P>
         </Wrapper>
       </Wrapper>
       <Wrapper justify="center" justifyi="center">

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "museminds",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Museminds website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ale Sans <info@alesans.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "framer-motion": "^1.11.1",
@@ -48,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/alesans/museminds.git"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
