@@ -3,7 +3,7 @@ require('dotenv').config({
 });
 
 const siteMetadata = {
-  title: `Museminds - Web development and design`,
+  title: `Museminds - We craft creative solutions`,
   keywords: `web developer costa rica, desarrollador web costa rica, diseñador web, website designer, frontend developer, frontend masters`,
   description: `We’re a design and development agency that specialize in simple, useful and beautiful solutions`,
   image: `${__dirname}/src/images/favicon.png`,
