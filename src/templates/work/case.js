@@ -135,7 +135,7 @@ const product = (props) => {
                 </Ul>
               </Wrapper>
               <IconMotion
-                // onClick={() => scrollTo('#down')}
+                // FIXME: onClick={() => scrollTo('#down')}
                 initial={{ opacity: 0.4, y: 2 }}
                 animate={{ opacity: 0.8, y: -1 }}
                 transition={{ duration: 1, yoyo: Infinity, ease: 'easeInOut' }}
@@ -146,8 +146,8 @@ const product = (props) => {
           </Container>
         </Section>
         <Section pb="md" pt="md">
-          <Container box="fullBox">
-            <Wrapper column="2/6" md="1/-1" gap="sm">
+          <Container box="fullBox" rgap="section">
+            <Wrapper column="2/6" md="2/12" gap="sm">
               <Wrapper>
                 <H4 mb="base">Project</H4>
                 <H4 size="md" width="30rem">
@@ -173,7 +173,7 @@ const product = (props) => {
                 <P>{workContent.date}</P>
               </Wrapper>
             </Wrapper>
-            <Wrapper column="6/12" md="1/-1">
+            <Wrapper column="6/12" md="2/12">
               <InnerHtml dangerouslySetInnerHTML={{ __html: `${workContent.content.childMarkdownRemark.html}` }} />
             </Wrapper>
             <Wrapper column="1/-1">
