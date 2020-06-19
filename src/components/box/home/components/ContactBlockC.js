@@ -8,7 +8,7 @@ const ContactBlockC = () => {
       <Wrapper columns="gridTwo" gap="lg" justifyi="center" align="center">
         <Wrapper>
           <H2 mb="sm">Let's start creating</H2>
-          <P>We will help you grow and develop the best solution</P>
+          <P>We will help you grow and develop the best solution.</P>
         </Wrapper>
         <Wrapper>
           <Btn to="/contact" padding="lg">
