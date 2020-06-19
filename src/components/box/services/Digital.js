@@ -7,7 +7,7 @@ import { Section, Container } from '../../../styles';
 
 const Digital = () => {
   return (
-    <Section mb="section">
+    <Section>
       <Container box="fullBox" pt="md" pb="md">
         <DigitalImageC />
         <DigitalBlockC />

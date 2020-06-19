@@ -7,7 +7,7 @@ import { Section, Container } from '../../../styles';
 
 const Dev = () => {
   return (
-    <Section mb="section" bg="backgroundAlt">
+    <Section bg="backgroundAlt">
       <Container box="fullBox" pt="section" pb="md">
         <DevBlockC />
         <DevImageC />

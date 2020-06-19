@@ -7,7 +7,7 @@ import { Section, Container } from '../../../styles';
 
 const Brand = () => {
   return (
-    <Section mb="section" bg="backgroundAlt">
+    <Section bg="backgroundAlt">
       <Container box="fullBox" pt="md" pb="md">
         <BrandBlockC />
         <BrandImageC />

@@ -12,8 +12,8 @@ const ContactPage = () => (
     <SEO title="Contact" />
     <Main>
       <Hero />
-      <Form id="scroll" />
-      <Scroll />
+      <Scroll id="scroll" />
+      <Form />
     </Main>
   </Layout>
 );
