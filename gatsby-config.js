@@ -5,7 +5,7 @@ require('dotenv').config({
 const siteMetadata = {
   title: `Museminds - Web development and design`,
   keywords: `web developer costa rica, desarrollador web costa rica, diseñador web, website designer, frontend developer, frontend masters`,
-  description: `I enjoy creating growth oriented digital products with a clean approach in mind`,
+  description: `We’re a design and development agency that specialize in simple, useful and beautiful solutions`,
   image: `${__dirname}/src/images/favicon.png`,
   siteUrl: `https://www.museminds.com`,
   siteLanguage: `en-US`,
@@ -14,7 +14,7 @@ const siteMetadata = {
   author: `museminds`,
   favicon: `${__dirname}/src/images/favicon.png`,
   backgroundColor: `#FFFFFF`,
-  themeColor: `#0E153A`,
+  themeColor: `#202D44`,
 };
 
 module.exports = {
@@ -46,7 +46,7 @@ module.exports = {
         short_name: `museminds`,
         start_url: `/`,
         background_color: `#FFFFFF`,
-        theme_color: `#0E153A`,
+        theme_color: `#202D44`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`,
       },
