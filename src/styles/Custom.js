@@ -25,6 +25,7 @@ import { FacebookCircle } from '@styled-icons/boxicons-logos/FacebookCircle';
 import { InstagramAlt } from '@styled-icons/boxicons-logos/InstagramAlt';
 import { Pinterest } from '@styled-icons/boxicons-logos/Pinterest';
 import { Twitter } from '@styled-icons/boxicons-logos/Twitter';
+import { Dribbble } from '@styled-icons/boxicons-logos/Dribbble';
 
 import { Icon, Iconsm, Iconlight, BurgerIcon, Wrapper, H1 } from './Theme';
 
@@ -423,6 +424,10 @@ export const SocialFooterPinterest = styled(Pinterest)`
 `;
 
 export const SocialFooterTwitter = styled(Twitter)`
+  ${Iconsm}
+`;
+
+export const SocialFooterDribbble = styled(Dribbble)`
   ${Iconsm}
 `;
 

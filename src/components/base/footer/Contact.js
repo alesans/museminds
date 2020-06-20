@@ -12,6 +12,7 @@ import {
   SocialFooterInstagram,
   // SocialFooterTwitter,
   // SocialFooterPinterest,
+  SocialFooterDribbble,
 } from '../../../styles';
 
 const Contact = () => {
@@ -48,6 +49,11 @@ const Contact = () => {
               <SocialFooterPinterest />
             </Anchor>
           </Li> */}
+          <Li>
+            <Anchor target="_blank" rel="noopener noreferrer" href="https://dribbble.com/museminds">
+              <SocialFooterDribbble />
+            </Anchor>
+          </Li>
         </Ul>
       </Ul>
     </Wrapper>
