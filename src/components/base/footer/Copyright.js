@@ -7,7 +7,7 @@ const Navbar = () => {
     <Wrapper column="1/-1" alignc="center" justify="center">
       <Ul gap="sm">
         <Li>
-          <GLink size="xs" color="body" to="/">
+          <GLink size="xs" fontWeight="medium" color="body" to="/">
             © MuseMinds {new Date().getFullYear()}. All Rights Reserved.
           </GLink>
         </Li>
