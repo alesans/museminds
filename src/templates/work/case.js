@@ -146,8 +146,8 @@ const product = (props) => {
           </Container>
         </Section>
         <Section pb="md" pt="md">
-          <Container box="fullBox" rgap="section">
-            <Wrapper column="2/6" md="2/12" gap="sm">
+          <Container box="fullBox">
+            <Wrapper column="2/6" md="2/12" gap="sm" mb="md">
               <Wrapper>
                 <H4 mb="base">Project</H4>
                 <H4 size="md" width="30rem">
@@ -173,7 +173,7 @@ const product = (props) => {
                 <P>{workContent.date}</P>
               </Wrapper>
             </Wrapper>
-            <Wrapper column="6/12" md="2/12">
+            <Wrapper column="6/12" md="2/12" mb="md">
               <InnerHtml dangerouslySetInnerHTML={{ __html: `${workContent.content.childMarkdownRemark.html}` }} />
             </Wrapper>
             <Wrapper column="1/-1">
