@@ -39,13 +39,13 @@ module.exports = {
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: '',
-    //     head: true,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-170147209-1',
+        head: true,
+      },
+    },
     {
       resolve: `gatsby-plugin-netlify-cache`,
       options: {
