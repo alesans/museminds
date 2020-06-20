@@ -34,17 +34,17 @@ const Contact = () => {
             </Anchor>
           </Li>
           <Li>
-            <Anchor href="https://www.instagram.com/muse.minds/">
+            <Anchor target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/muse.minds/">
               <SocialFooterInstagram />
             </Anchor>
           </Li>
           {/* <Li>
-            <Anchor href="">
+            <Anchor target="_blank" rel="noopener noreferrer"  href="">
               <SocialFooterTwitter />
             </Anchor>
           </Li>
           <Li>
-            <Anchor href="">
+            <Anchor target="_blank" rel="noopener noreferrer"  href="">
               <SocialFooterPinterest />
             </Anchor>
           </Li> */}
