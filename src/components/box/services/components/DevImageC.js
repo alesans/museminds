@@ -22,7 +22,7 @@ const DevImageC = () => {
     <Wrapper column="7 / 12" lg="1 / -1" align="center" pl="sm" pr="sm">
       <ImageContainer>
         <ImageCardWrapper>
-          <ImageCard className="image-card" fluid={data.image.childImageSharp.fluid} alt="Nuestra misión" />
+          <ImageCard className="image-card" fluid={data.image.childImageSharp.fluid} alt="Web development" />
         </ImageCardWrapper>
       </ImageContainer>
     </Wrapper>

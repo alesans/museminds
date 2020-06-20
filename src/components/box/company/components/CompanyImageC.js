@@ -22,7 +22,11 @@ const CompanyImageC = () => {
     <Wrapper column="7 / 12" lg="1 / -1" align="center" pl="sm" pr="sm">
       <ImageContainer>
         <ImageCardWrapper>
-          <ImageCard className="image-card" fluid={data.image.childImageSharp.fluid} alt="Nuestra misión" />
+          <ImageCard
+            className="image-card"
+            fluid={data.image.childImageSharp.fluid}
+            alt="Image about our company culture"
+          />
         </ImageCardWrapper>
       </ImageContainer>
     </Wrapper>

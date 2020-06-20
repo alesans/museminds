@@ -22,7 +22,7 @@ const DigitalImageC = () => {
     <Wrapper lgorder="2" column="2 / 7" lg="1 / -1" align="center" pl="sm" pr="sm">
       <ImageContainer>
         <ImageCardWrapper>
-          <ImageCard className="image-card" fluid={data.image.childImageSharp.fluid} alt="Nuestra misión" />
+          <ImageCard className="image-card" fluid={data.image.childImageSharp.fluid} alt="Marketing strategy" />
         </ImageCardWrapper>
       </ImageContainer>
     </Wrapper>
