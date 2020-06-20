@@ -21,6 +21,10 @@ import { ColorSwatch } from '@styled-icons/heroicons-outline/ColorSwatch';
 import { Category } from '@styled-icons/material/Category';
 import { FolderVideo } from '@styled-icons/entypo/FolderVideo';
 import { AudioSpectrum } from '@styled-icons/open-iconic/AudioSpectrum';
+import { FacebookCircle } from '@styled-icons/boxicons-logos/FacebookCircle';
+import { InstagramAlt } from '@styled-icons/boxicons-logos/InstagramAlt';
+import { Pinterest } from '@styled-icons/boxicons-logos/Pinterest';
+import { Twitter } from '@styled-icons/boxicons-logos/Twitter';
 
 import { Icon, Iconsm, Iconlight, BurgerIcon, Wrapper, H1 } from './Theme';
 
@@ -404,6 +408,22 @@ export const IconPreviousPage = styled(ChevronLeftCircle)`
 
 export const IconNextPage = styled(ChevronRightCircle)`
   ${Icon}
+`;
+
+export const SocialFooterFacebook = styled(FacebookCircle)`
+  ${Iconsm}
+`;
+
+export const SocialFooterInstagram = styled(InstagramAlt)`
+  ${Iconsm}
+`;
+
+export const SocialFooterPinterest = styled(Pinterest)`
+  ${Iconsm}
+`;
+
+export const SocialFooterTwitter = styled(Twitter)`
+  ${Iconsm}
 `;
 
 export const SmallHoverIcon = styled(ChevronRightCircle)`

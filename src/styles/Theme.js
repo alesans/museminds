@@ -803,27 +803,29 @@ export const Btn = styled(Link)`
 `;
 
 export const Anchor = styled.a`
-  display: ${(props) => props.theme.grid.display};
+  display: ${(props) => props.theme.flex.display};
   align-items: ${(props) => props.theme.grid.center};
-  cursor: ${(props) => props.theme.properties.pointer};
   font-size: ${(props) => props.theme.fontSize[props.size] || props.theme.fontSize.base};
-  font-weight: ${(props) => props.theme.fontWeight[props.weight] || props.theme.fontWeight.bold};
+  font-weight: ${(props) => props.theme.fontWeight[props.fontWeight] || props.theme.fontWeight.normal};
   letter-spacing: ${(props) => props.theme.letterSpacing[props.letterspacing] || props.theme.letterSpacing.wider};
   text-decoration: ${(props) => props.theme.properties.none};
-  color: ${(props) => props.theme.color[props.color] || props.theme.color.body};
-  background-color: ${(props) => props.theme.color[props.bg] || props.theme.color.transparent};
+  color: ${(props) => props.theme.color[props.color] || props.theme.color.light};
+  background-color: ${(props) => props.theme.color[props.bg]};
   max-width: ${(props) => props.width || props.theme.width.maxContent};
-  padding: ${(props) => props.theme.button[props.padding] || props.theme.button.none};
-  border-radius: ${(props) => props.theme.borderRadius[props.radius] || props.theme.borderRadius.none};
+  padding: ${(props) => props.theme.button[props.padding]};
+  border-radius: ${(props) => props.theme.borderRadius[props.radius]};
+    box-shadow: ${(props) => props.theme.boxShadow[props.shadow]};
   border: ${(props) => props.theme.border[props.border] || props.theme.border.none};
   transition: ${(props) => props.theme.transition[props.transition] || props.theme.transition.quick};
   opacity: ${(props) => props.theme.properties[props.opacity] || props.theme.properties.one};
   ${Margin}
   ${Padding}
   ${Border}
-
   &:hover {
     opacity: ${(props) => props.theme.properties[props.hover] || props.theme.properties.one};
+    background-color: ${(props) => props.theme.color[props.bgh]};
+    color: ${(props) => props.theme.color[props.colorh] || props.theme.color.light};
+    transform: scale(1.04);
   }
   &:focus {
     outline: ${(props) => props.theme.properties.none};
