@@ -25,6 +25,34 @@ module.exports = {
     `gatsby-plugin-playground`,
     `gatsby-plugin-smoothscroll`,
     {
+      resolve: `gatsby-plugin-advanced-sitemap`,
+      options: {
+        exclude: [`/dev-404-page`, `/404`, `/404.html`, `/blog.html`, `/blog`],
+        createLinkInHead: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: 'https://www.museminds.com',
+        sitemap: 'https://www.museminds.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: '',
+    //     head: true,
+    //   },
+    // },
+    {
+      resolve: `gatsby-plugin-netlify-cache`,
+      options: {
+        cachePublic: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
