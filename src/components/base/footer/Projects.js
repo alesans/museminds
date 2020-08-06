@@ -40,7 +40,7 @@ export default () => (
         <Ul gap="sm">
           {data.allContentfulWork.edges.map((edge) => (
             <Li>
-              <GLink color="body" to={`/productos/${edge.node.slug}`}>
+              <GLink color="body" to={`/work/${edge.node.slug}`}>
                 {edge.node.title}
               </GLink>
             </Li>
