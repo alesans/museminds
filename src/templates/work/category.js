@@ -112,7 +112,7 @@ const Category = (props) => {
               <Wrapper mb="md">
                 <H2 align="center">{category}</H2>
               </Wrapper>
-              <Ul columns="gridFour" gap="sm">
+              <Ul columns="gridFive" gap="sm">
                 <Li>
                   <Btn
                     color="body"
