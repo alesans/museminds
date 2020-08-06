@@ -9,7 +9,7 @@ const Hero = () => {
   //Images
   const data = useStaticQuery(graphql`
     query {
-      first: file(relativePath: { eq: "backgrounds/hero.jpg" }) {
+      first: file(relativePath: { eq: "backgrounds/graphic.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 3000, quality: 85) {
             aspectRatio
@@ -30,8 +30,8 @@ const Hero = () => {
       style={{
         backgroundImage: `linear-gradient(
                       to bottom right,
-                      rgba(31, 32, 65, 0.65) 20%,
-                      rgba(31, 32, 65, 0.65) 100%),url(${data.first.childImageSharp.fluid.src})`,
+                      rgba(31, 32, 65, 0.1) 20%,
+                      rgba(31, 32, 65, 0.1) 100%),url(${data.first.childImageSharp.fluid.src})`,
       }}
       bgs="cover"
       bgp="top"
