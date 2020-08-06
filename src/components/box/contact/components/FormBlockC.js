@@ -51,7 +51,7 @@ const ContactForm = () => {
           </Wrapper>
           <Wrapper>
             <Label>Email*</Label>
-            <Input type="text" name="email" placeholder="nfo@johndoe.com" required />
+            <Input type="text" name="email" placeholder="info@johndoe.com" required />
           </Wrapper>
           <Wrapper>
             <Label>Website (optional)</Label>
