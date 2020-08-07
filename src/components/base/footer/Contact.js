@@ -10,8 +10,8 @@ import {
   ContactFooterIconThree,
   SocialFooterFacebook,
   SocialFooterInstagram,
-  // SocialFooterTwitter,
-  // SocialFooterPinterest,
+  SocialFooterTwitter,
+  SocialFooterPinterest,
   SocialFooterDribbble,
 } from '../../../styles';
 
@@ -39,16 +39,16 @@ const Contact = () => {
               <SocialFooterInstagram />
             </Anchor>
           </Li>
-          {/* <Li>
-            <Anchor target="_blank" rel="noopener noreferrer"  href="">
+          <Li>
+            <Anchor target="_blank" rel="noopener noreferrer" href="https://twitter.com/musemindsagency">
               <SocialFooterTwitter />
             </Anchor>
           </Li>
           <Li>
-            <Anchor target="_blank" rel="noopener noreferrer"  href="">
+            <Anchor target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/musemindsagency/">
               <SocialFooterPinterest />
             </Anchor>
-          </Li> */}
+          </Li>
           <Li>
             <Anchor target="_blank" rel="noopener noreferrer" href="https://dribbble.com/museminds">
               <SocialFooterDribbble />
