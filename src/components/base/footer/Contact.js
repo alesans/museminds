@@ -28,7 +28,7 @@ const Contact = () => {
           <ContactFooterIconThree />
           San José, Costa Rica
         </Li>
-        <Ul columns="repeat(4, max-content)" colmd="repeat(4, max-content)" rgap="base">
+        <Ul columns="repeat(5, max-content)" colmd="repeat(5, max-content)" rgap="base">
           <Li>
             <Anchor target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/musemindsagency/">
               <SocialFooterFacebook />
