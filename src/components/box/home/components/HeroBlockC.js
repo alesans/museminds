@@ -17,7 +17,7 @@ const HeroBlockC = () => {
         data-sal="slide-up"
         data-sal-easing="ease-out-bounce"
       >
-        We’re a creative agency that specialize in simple, useful and innovative solutions
+        We’re a creative agency that specialize in eCommerce and marketing solutions
       </H1>
       <IconMotion
         onClick={() => scrollTo('#scroll')}
