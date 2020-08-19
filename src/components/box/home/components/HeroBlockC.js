@@ -1,12 +1,13 @@
 import React from 'react';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
-import { Wrapper, H1, IconMotion, ViewMoreDark } from '../../../../styles';
+import { Wrapper, H1, Small, IconMotion, ViewMoreDark } from '../../../../styles';
 
 const HeroBlockC = () => {
   return (
     <Wrapper column="2 / 6" lg="2 / 12" align="start" pl="sm" pr="sm">
       <H1 width="45rem" lgsize="md" color="dark" mt="lg" mb="sm" size="xl">
+        <Small align="left">WE CRAFT BRANDS</Small>
         We're a creative agency that focus in human-centered solutions
       </H1>
       <IconMotion
