@@ -44,10 +44,10 @@ export default () => (
       }
     `}
     render={(data) => (
-      <Wrapper column="6 / 12" lg="2 / 12" mb="md" align="center" justify="center">
+      <Wrapper column="6 / 12" lg="2 / 10" mb="md" align="center" justify="center">
         {data.allContentfulWork.edges.map((edge) => (
           <Wrapper key={edge.node.id}>
-            <Wrapper columns="gridTwo" gap="md">
+            <Wrapper columns="gridTwo" gap="md" mdgap="0">
               {edge.node.gallery.map((image) => (
                 <Image
                   data-sal-duration="1200"
