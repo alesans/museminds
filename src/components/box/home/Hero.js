@@ -2,7 +2,7 @@ import React from 'react';
 // import { useStaticQuery, graphql } from 'gatsby';
 
 import HeroBlockC from './components/HeroBlockC';
-import HeroFeatured from './components/HeroFeatured';
+import HeroFeaturedC from './components/HeroFeatured';
 
 import { Section, Container } from '../../../styles';
 
@@ -41,7 +41,7 @@ const Hero = () => {
     >
       <Container box="fullBox" gap="md">
         <HeroBlockC />
-        <HeroFeatured />
+        <HeroFeaturedC />
       </Container>
     </Section>
   );
