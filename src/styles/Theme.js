@@ -27,14 +27,14 @@ export const Theme = {
     backgroundDark: '#1D293F',
     backgroundAltLight: 'rgba(122, 64, 216)',
     backgroundAltDark: '#202D44',
-    dark: 'rgba(14, 21, 58)',
+    dark: '#303850',
     light: '#FFFFFF',
     gray: '#747474',
     grayAlt: '#d4d4d4',
     primary: 'rgba(122, 64, 216)',
     secondary: 'rgba(90, 36, 178)',
-    title: 'rgba(14, 21, 58)',
-    body: 'rgba(14, 21, 58)',
+    title: '#303850',
+    body: '#303850',
     success: 'springgreen',
     danger: 'crimson',
     warning: 'gold',
@@ -943,7 +943,7 @@ export const SendBtn = styled.button`
   max-width: ${(props) => props.width || props.theme.width.maxContent};
   padding: ${(props) => props.theme.button[props.padding] || props.theme.button.xs};
   border-radius: ${(props) => props.theme.borderRadius[props.radius] || props.theme.borderRadius.md};
-    box-shadow: ${(props) => props.theme.boxShadow[props.shadow]};
+  box-shadow: ${(props) => props.theme.boxShadow[props.shadow]};
   border: ${(props) => props.theme.border[props.border] || props.theme.border.none};
   transition: ${(props) => props.theme.transition[props.transition] || props.theme.transition.quick};
   opacity: ${(props) => props.theme.properties[props.opacity] || props.theme.properties.one};

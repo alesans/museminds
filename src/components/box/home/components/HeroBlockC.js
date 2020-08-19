@@ -1,23 +1,13 @@
 import React from 'react';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
-import { Wrapper, H1, IconMotion, ViewMore } from '../../../../styles';
+import { Wrapper, H1, IconMotion, ViewMoreDark } from '../../../../styles';
 
 const HeroBlockC = () => {
   return (
-    <Wrapper column="2 / 12" lg="2 / 12" mb="md" align="center">
-      <H1
-        width="100rem"
-        lgsize="md"
-        color="light"
-        mt="lg"
-        mb="lg"
-        data-sal-duration="1200"
-        data-sal-delay="100"
-        data-sal="slide-up"
-        data-sal-easing="ease-out-bounce"
-      >
-        We’re a creative agency that specialize in eCommerce and marketing solutions
+    <Wrapper column="2 / 6" lg="2 / 12" align="start" pl="sm" pr="sm">
+      <H1 width="45rem" lgsize="md" color="dark" mt="lg" mb="sm" size="xl">
+        We're a creative agency that focus in human-centered solutions
       </H1>
       <IconMotion
         onClick={() => scrollTo('#scroll')}
@@ -25,7 +15,7 @@ const HeroBlockC = () => {
         animate={{ opacity: 0.8, y: -1 }}
         transition={{ duration: 1, yoyo: Infinity, ease: 'easeInOut' }}
       >
-        <ViewMore />
+        <ViewMoreDark />
       </IconMotion>
     </Wrapper>
   );

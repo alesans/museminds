@@ -270,6 +270,17 @@ export const ViewMore = styled(DownArrowAlt)`
   }
 `;
 
+export const ViewMoreDark = styled(DownArrowAlt)`
+  width: 5rem;
+  color: ${(props) => props.theme.color.dark};
+  cursor: ${(props) => props.theme.properties.pointer};
+  opacity: ${(props) => props.theme.properties.ceroEight};
+  transition: ${(props) => props.theme.transition.fast};
+  &:hover {
+    opacity: ${(props) => props.theme.properties.one};
+  }
+`;
+
 export const IconBlockBG = styled.img`
   opacity: 0.1;
   position: absolute;
