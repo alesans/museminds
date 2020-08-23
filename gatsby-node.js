@@ -159,7 +159,7 @@ exports.createPages = ({ actions, graphql }) => {
      allContentfulWork (
        sort: { fields: [createdAt], order: DESC }
        filter: {
-         node_locale: {eq: "en-US"}},)
+         node_locale: {eq: "es-CR"}},)
      {
        edges {
          node {
@@ -173,7 +173,7 @@ exports.createPages = ({ actions, graphql }) => {
   ).then((result) => {
     result.data.allContentfulWork.edges.forEach(({ node }) => {
       createPage({
-        path: `work/${node.slug}`,
+        path: `proyectos/${node.slug}`,
         component: path.resolve(`src/templates/work/case.js`),
         context: {
           id: node.id,
@@ -209,7 +209,7 @@ exports.createPages = ({ actions, graphql }) => {
 
     Array.from({ length: numPages }).forEach((_, i) => {
       createPage({
-        path: i === 0 ? `/work` : `/work/${i + 1}`,
+        path: i === 0 ? `/proyectos` : `/proyectos/${i + 1}`,
         component: path.resolve(`./src/templates/work/archive.js`),
         context: {
           limit: worksPerPage,
@@ -253,7 +253,7 @@ exports.createPages = ({ actions, graphql }) => {
       const allWorksByCategory = result.data.allContentfulCategory.edges;
 
       categories.forEach((category) => {
-        const categoryPath = `/work/category/${_.kebabCase(category)}`;
+        const categoryPath = `/proyectos/categoria/${_.kebabCase(category)}`;
 
         let workByCategory = [];
 

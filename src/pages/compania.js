@@ -11,7 +11,7 @@ import { Scroll, Main } from '../styles';
 
 const CompanyPage = () => (
   <Layout>
-    <SEO title="Company" />
+    <SEO title="Compañía" />
     <Main>
       <Hero />
       <Scroll id="scroll" />

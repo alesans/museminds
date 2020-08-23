@@ -28,7 +28,7 @@ const ContactForm = () => {
       data: new FormData(form),
     })
       .then((r) => {
-        handleServerResponse(true, 'Thanks! We will be in touch soon.', form);
+        handleServerResponse(true, '¡Gracias! Estaremos en contacto contigo pronto', form);
       })
       .catch((r) => {
         handleServerResponse(false, r.response.data.error, form);
@@ -42,30 +42,30 @@ const ContactForm = () => {
             <Input type="hidden" name="_gotcha" />
           </Wrapper>
           <Wrapper>
-            <Label>Summary*</Label>
-            <Input type="text" name="summary" placeholder="Job description" required />
+            <Label>Resumen*</Label>
+            <Input type="text" name="summary" placeholder="Descripción del proyecto" required />
           </Wrapper>
           <Wrapper>
-            <Label>Full Name*</Label>
+            <Label>Nombre Completo*</Label>
             <Input type="text" name="fullname" placeholder="John Doe" required />
           </Wrapper>
           <Wrapper>
-            <Label>Email*</Label>
+            <Label>Correo Electrónico*</Label>
             <Input type="text" name="email" placeholder="info@johndoe.com" required />
           </Wrapper>
           <Wrapper>
-            <Label>Website (optional)</Label>
+            <Label>Sitio Web (opcional)</Label>
             <Input type="text" name="website" placeholder="www.johndoe.com" />
           </Wrapper>
         </Wrapper>
         <Wrapper>
           <Wrapper mb="md">
-            <Label>Message*</Label>
-            <Textarea name="message" rows="6" col="1" placeholder="Job brief..." required></Textarea>
+            <Label>Mensaje*</Label>
+            <Textarea name="message" rows="6" col="1" placeholder="Resumen del proyecto..." required></Textarea>
           </Wrapper>
           <Wrapper justifyi="center" mb="sm">
             <SendBtn padding="xl" type="submit" disabled={serverState.submitting}>
-              Send
+              Enviar
             </SendBtn>
           </Wrapper>
           <Wrapper justify="center" justifyi="center">

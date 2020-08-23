@@ -23,7 +23,7 @@ export default () => (
         allContentfulWork(
           limit: 4
           sort: { fields: [createdAt], order: DESC }
-          filter: { node_locale: { eq: "en-US" }, home: { eq: true } }
+          filter: { node_locale: { eq: "es-CR" }, home: { eq: true } }
         ) {
           edges {
             node {
@@ -54,9 +54,9 @@ export default () => (
       <Wrapper column="2/12">
         <Wrapper mb="md" justify="center">
           <H2 align="center" mb="sm">
-            Our Work
+            Nuestros Proyectos
           </H2>
-          <P>We develop innovative technology solutions for Startups</P>
+          <P>Desarrollamos soluciones tecnológicas innovadoras para empresas</P>
         </Wrapper>
         <Wrapper columns="gridThree" gap="sm" mb="md" pl="base" pr="base">
           {data.allContentfulWork.edges.map((edge) => (
@@ -64,7 +64,7 @@ export default () => (
               key={edge.node.id}
               tabIndex={edge.node.id}
               role="button"
-              onClick={() => navigate(`/work/${edge.node.slug}`)}
+              onClick={() => navigate(`/proyectos/${edge.node.slug}`)}
             >
               <ImageCardWrapper>
                 <CImageCard className="image-card" src={edge.node.featuredImage.fluid.src} alt={edge.node.title} />
@@ -87,7 +87,7 @@ export default () => (
                   {edge.node.title}
                 </H3>
                 <SmallHover align="left" color="light" className="image-btn">
-                  View Case Study
+                  Ver Caso de Estudio
                   <SmallHoverIcon />
                 </SmallHover>
               </ImageContent>
@@ -95,8 +95,8 @@ export default () => (
           ))}
         </Wrapper>
         <Wrapper justify="center" justifyi="center">
-          <Btn to="/work" padding="sm">
-            Show all
+          <Btn to="/proyectos" padding="sm">
+            Mostrar todos
           </Btn>
         </Wrapper>
       </Wrapper>

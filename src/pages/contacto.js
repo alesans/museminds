@@ -9,7 +9,7 @@ import { Scroll, Main } from '../styles';
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="Contacto" />
     <Main>
       <Hero />
       <Scroll id="scroll" />

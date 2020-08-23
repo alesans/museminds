@@ -10,7 +10,7 @@ export default () => (
         allContentfulWork(
           limit: 1
           sort: { fields: [createdAt], order: DESC }
-          filter: { node_locale: { eq: "en-US" }, featured: { eq: true } }
+          filter: { node_locale: { eq: "es-CR" }, featured: { eq: true } }
         ) {
           edges {
             node {
@@ -71,8 +71,8 @@ export default () => (
                 <H3 width="30rem" mb="sm" size="lg">
                   {edge.node.title}
                 </H3>
-                <SendBtn onClick={() => navigate(`/work/${edge.node.slug}`)} padding="md">
-                  View Case Study
+                <SendBtn onClick={() => navigate(`/proyectos/${edge.node.slug}`)} padding="md">
+                  Ver Caso de Estudio
                 </SendBtn>
               </Wrapper>
             </Wrapper>

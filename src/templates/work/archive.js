@@ -38,7 +38,7 @@ export const pageQuery = graphql`
   query WorkArchiveQuery($skip: Int!, $limit: Int!) {
     allContentfulWork(
       sort: { fields: [createdAt], order: DESC }
-      filter: { node_locale: { eq: "en-US" } }
+      filter: { node_locale: { eq: "es-CR" } }
       skip: $skip
       limit: $limit
     ) {
@@ -97,7 +97,7 @@ const Archive = (props) => {
 
   return (
     <Layout>
-      <SEO title="Work" keywords={['LED']} />
+      <SEO title="Proyectos" keywords={['eCommerce Costa Rica']} />
       <Main>
         {/* <Hero /> */}
         <Scroll id="scroll" />
@@ -141,7 +141,7 @@ const Archive = (props) => {
                       key={edge.node.id}
                       tabIndex={edge.node.id}
                       role="button"
-                      onClick={() => navigate(`/work/category/${edge.node.slug}`)}
+                      onClick={() => navigate(`/proyectos/categoria/${edge.node.slug}`)}
                     >
                       {edge.node.title}
                     </CatBtn>
@@ -156,7 +156,7 @@ const Archive = (props) => {
                     key={edge.node.id}
                     tabIndex={edge.node.id}
                     role="button"
-                    onClick={() => navigate(`/work/${edge.node.slug}`)}
+                    onClick={() => navigate(`/proyectos/${edge.node.slug}`)}
                   >
                     <ImageCardWrapper>
                       <CImageCard
@@ -183,7 +183,7 @@ const Archive = (props) => {
                         {edge.node.title}
                       </H3>
                       <SmallHover align="left" color="light" className="image-btn">
-                        View Case Study
+                        Ver Caso de Estudio
                         <SmallHoverIcon />
                       </SmallHover>
                     </ImageContent>

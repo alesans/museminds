@@ -15,7 +15,7 @@ import { Scroll, Main } from '../styles';
 
 const ServicePage = () => (
   <Layout>
-    <SEO title="Services" />
+    <SEO title="Servicios" />
     <Main>
       <Hero />
       <Scroll id="scroll" />

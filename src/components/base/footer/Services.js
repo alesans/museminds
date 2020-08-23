@@ -5,23 +5,23 @@ import { Wrapper, Ul, Li, H4, ServicesFooterIcon } from '../../../styles';
 const Navbar = () => {
   return (
     <Wrapper alignc="start">
-      <H4 mb="sm">Services</H4>
+      <H4 mb="sm">Servicios</H4>
       <Ul gap="sm">
         <Li>
           <ServicesFooterIcon />
-          Development
+          Desarrollo
         </Li>
         <Li>
           <ServicesFooterIcon />
-          Design
+          Diseño
         </Li>
         <Li>
           <ServicesFooterIcon />
-          Marketing
+          Mercadeo
         </Li>
         <Li>
           <ServicesFooterIcon />
-          Production
+          Producción
         </Li>
       </Ul>
     </Wrapper>

@@ -10,7 +10,7 @@ const TeamBlockC = () => {
     <Wrapper column="1/13">
       <Wrapper mb="md">
         <H2 align="center" mb="sm">
-          Meet the team
+          Conoce al equipo
         </H2>
       </Wrapper>
       <Wrapper columns="responsive" gap="sm" mb="md">
@@ -27,7 +27,7 @@ const TeamBlockC = () => {
               data-sal-easing="ease-out-bounce"
             />
             <H3 align="center">Alejandro Sánchez</H3>
-            <Small>Co-founder and CEO</Small>
+            <Small>Co-fundador y CEO</Small>
           </Wrapper>
         </Wrapper>
         <Wrapper bg="backgroundAlt" pt="md" pb="md">
@@ -43,7 +43,7 @@ const TeamBlockC = () => {
               data-sal-easing="ease-out-bounce"
             />
             <H3 align="center">Mauricio Sánchez</H3>
-            <Small>Co-founder and COO</Small>
+            <Small>Co-fundador y COO</Small>
           </Wrapper>
         </Wrapper>
       </Wrapper>

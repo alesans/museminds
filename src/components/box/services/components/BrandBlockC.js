@@ -7,13 +7,13 @@ const DevBlockC = () => {
     <Wrapper column="2 / 6" lg="2/12" align="center">
       <Wrapper mt="sm" mb="sm">
         <Wrapper mb="sm">
-          <Small align="left">Services</Small>
+          <Small align="left">Servicios</Small>
           <H2>Branding</H2>
         </Wrapper>
         <Wrapper>
           <P>
-            Generate long-term emotional relationships and bonds with consumers, and loyalty to your trademark to the
-            extent that it provides them with real value in functional and emotional terms.
+            Generar relaciones y vínculos emocionales a largo plazo con los consumidores, y fidelizar su marca a la en
+            la medida en que les proporciona un valor real en términos funcionales y emocionales.
           </P>
         </Wrapper>
       </Wrapper>

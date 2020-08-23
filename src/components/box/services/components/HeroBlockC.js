@@ -17,7 +17,7 @@ const HeroBlockC = () => {
         data-sal="slide-up"
         data-sal-easing="ease-out-bounce"
       >
-        Our Services
+        Nuestros Servicios
       </H1>
       <IconMotion
         onClick={() => scrollTo('#scroll')}

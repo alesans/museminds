@@ -7,12 +7,12 @@ const ContactBlockC = () => {
     <Wrapper column="1/13">
       <Wrapper columns="gridTwo" gap="lg" justifyi="center" align="center">
         <Wrapper>
-          <H2 mb="sm">Let's start creating</H2>
-          <P>We will help you grow and develop the best solution.</P>
+          <H2 mb="sm">Comencemos a crear</H2>
+          <P>Te ayudaremos a desarrollar la mejor solución.</P>
         </Wrapper>
         <Wrapper>
-          <Btn to="/contact" padding="lg">
-            Contact us
+          <Btn to="/contacto" padding="lg">
+            Contáctanos
           </Btn>
         </Wrapper>
       </Wrapper>

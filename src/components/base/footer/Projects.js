@@ -10,7 +10,7 @@ export default () => (
         allContentfulWork(
           limit: 8
           sort: { fields: [createdAt], order: DESC }
-          filter: { node_locale: { eq: "en-US" }, home: { eq: true } }
+          filter: { node_locale: { eq: "es-CR" }, home: { eq: true } }
         ) {
           edges {
             node {
@@ -40,7 +40,7 @@ export default () => (
         <Ul gap="sm">
           {data.allContentfulWork.edges.map((edge) => (
             <Li>
-              <GLink color="body" to={`/work/${edge.node.slug}`}>
+              <GLink color="body" to={`/proyectos/${edge.node.slug}`}>
                 {edge.node.title}
               </GLink>
             </Li>

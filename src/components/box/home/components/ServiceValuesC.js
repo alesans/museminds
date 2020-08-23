@@ -34,9 +34,9 @@ const ServiceValues = () => {
             data-sal-easing="ease-out-bounce"
           />
           <H3 align="center" mb="sm">
-            Development
+            Desarrollo
           </H3>
-          <P>We craft digital products with the latest skills.</P>
+          <P>Creamos productos con las últimas tecnologías.</P>
         </Wrapper>
         <Wrapper
           bg="backgroundAlt"
@@ -55,9 +55,9 @@ const ServiceValues = () => {
             data-sal-easing="ease-out-bounce"
           />
           <H3 align="center" mb="sm">
-            UI/UX Design
+            Diseño UI/UX
           </H3>
-          <P>We build robust products that improve usability.</P>
+          <P>Creamos productos enfocados en usabilidad.</P>
         </Wrapper>
         <Wrapper
           bg="backgroundAlt"
@@ -76,9 +76,9 @@ const ServiceValues = () => {
             data-sal-easing="ease-out-bounce"
           />
           <H3 align="center" mb="sm">
-            Branding
+            Marca
           </H3>
-          <P>We build a strategy around your needs.</P>
+          <P>Construimos en torno a tus necesidades.</P>
         </Wrapper>
         <Wrapper
           bg="backgroundAlt"
@@ -97,9 +97,9 @@ const ServiceValues = () => {
             data-sal-easing="ease-out-bounce"
           />
           <H3 align="center" mb="sm">
-            Digital Strategy
+            Estrategia Digital
           </H3>
-          <P>We colaborate with your business goals.</P>
+          <P>Colaboramos con tus objetivos comerciales.</P>
         </Wrapper>
         <Wrapper
           bg="backgroundAlt"
@@ -118,9 +118,9 @@ const ServiceValues = () => {
             data-sal-easing="ease-out-bounce"
           />
           <H3 align="center" mb="sm">
-            Post-production
+            Post-producción
           </H3>
-          <P>We craft video content for your users.</P>
+          <P>Creamos contenido de video para tus usuarios.</P>
         </Wrapper>
         <Wrapper
           bg="backgroundAlt"
@@ -139,14 +139,14 @@ const ServiceValues = () => {
             data-sal-easing="ease-out-bounce"
           />
           <H3 align="center" mb="sm">
-            Audio production
+            Audio
           </H3>
-          <P>We create sound suitable for your brand.</P>
+          <P>Creamos el sonido adecuado para tu marca.</P>
         </Wrapper>
       </Wrapper>
       <Wrapper justify="center" justifyi="center">
         <Btn to="/services" padding="sm">
-          More information
+          Más información
         </Btn>
       </Wrapper>
     </Wrapper>

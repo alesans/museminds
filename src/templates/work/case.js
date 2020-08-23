@@ -24,7 +24,7 @@ import {
 
 export const query = graphql`
   query CaseTemplate($id: String!) {
-    contentfulWork(id: { eq: $id }) {
+    contentfulWork(node_locale: { eq: "es-CR" }, id: { eq: $id }) {
       title
       date
       id
@@ -121,7 +121,7 @@ const product = (props) => {
                 data-sal-easing="ease-out-bounce"
               >
                 <Small color="light" align="left">
-                  Case Study
+                  Caso de Estudio
                 </Small>
                 <PH1 width="60rem" color="light" mb="sm">
                   {workContent.title}
@@ -149,13 +149,13 @@ const product = (props) => {
           <Container box="fullBox">
             <Wrapper column="2/6" md="2/12" gap="sm" mb="md">
               <Wrapper>
-                <H4 mb="base">Project</H4>
+                <H4 mb="base">Proyecto</H4>
                 <H4 size="md" width="30rem">
                   {workContent.title}
                 </H4>
               </Wrapper>
               <Wrapper>
-                <H4 mb="base">Services</H4>
+                <H4 mb="base">Servicios</H4>
                 <Ul>
                   {workContent.service.map((service) => (
                     <Li mb="base" key={service.id}>
@@ -165,11 +165,11 @@ const product = (props) => {
                 </Ul>
               </Wrapper>
               <Wrapper>
-                <H4 mb="base">Client</H4>
+                <H4 mb="base">Cliente</H4>
                 <P>{workContent.client.title}</P>
               </Wrapper>
               <Wrapper>
-                <H4 mb="base">Year</H4>
+                <H4 mb="base">Año</H4>
                 <P>{workContent.date}</P>
               </Wrapper>
             </Wrapper>

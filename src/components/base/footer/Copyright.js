@@ -8,7 +8,7 @@ const Navbar = () => {
       <Ul gap="sm">
         <Li>
           <GLink size="xs" fontWeight="medium" color="body" to="/">
-            © MuseMinds {new Date().getFullYear()}. All Rights Reserved.
+            © MuseMinds {new Date().getFullYear()}. Todos los derechos reservados.
           </GLink>
         </Li>
       </Ul>

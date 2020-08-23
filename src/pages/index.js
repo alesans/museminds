@@ -11,7 +11,7 @@ import { Scroll, Main } from '../styles';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Inicio" />
     <Main>
       <Hero />
       <Scroll id="scroll" />

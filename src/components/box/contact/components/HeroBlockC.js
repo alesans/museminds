@@ -15,7 +15,7 @@ const HeroBlockC = () => {
         data-sal="slide-up"
         data-sal-easing="ease-out-bounce"
       >
-        Get in touch
+        Contáctanos
       </H1>
       <IconMotion
         onClick={() => scrollTo('#scroll')}

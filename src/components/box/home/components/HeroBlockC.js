@@ -8,9 +8,9 @@ const HeroBlockC = () => {
     <Wrapper column="2 / 6" lg="2 / 10" align="start" pl="sm" pr="sm">
       <H1 width="45rem" color="dark" mt="lg" mb="sm" size="xl" lgsize="md">
         <Small align="left" size="xs" lgsize="sm">
-          WE CRAFT ECOMMERCE BRANDS
+          CREAMOS MARCAS ECOMMERCE
         </Small>
-        We're a creative agency that focus in human-centered solutions
+        Somos una agencia creativa enfocada en soluciones humanas
       </H1>
       <IconMotion
         onClick={() => scrollTo('#scroll')}

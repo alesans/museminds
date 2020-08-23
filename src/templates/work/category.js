@@ -38,7 +38,7 @@ export const pageQuery = graphql`
   query WorkCategoryQuery($skip: Int!, $limit: Int!, $category: String) {
     allContentfulWork(
       sort: { fields: [createdAt], order: DESC }
-      filter: { node_locale: { eq: "en-US" }, category: { elemMatch: { title: { eq: $category } } } }
+      filter: { node_locale: { eq: "es-CR" }, category: { elemMatch: { title: { eq: $category } } } }
       skip: $skip
       limit: $limit
     ) {
@@ -122,9 +122,9 @@ const Category = (props) => {
                     shadow="card"
                     bgh="backgroundAlt"
                     colorh="body"
-                    to="/work"
+                    to="/proyectos"
                   >
-                    All
+                    Todos
                   </Btn>
                 </Li>
                 {categoryContent.edges.map((edge) => (
@@ -140,7 +140,7 @@ const Category = (props) => {
                       key={edge.node.id}
                       tabIndex={edge.node.id}
                       role="button"
-                      onClick={() => navigate(`/work/category/${edge.node.slug}`)}
+                      onClick={() => navigate(`/proyectos/categoria/${edge.node.slug}`)}
                     >
                       {edge.node.title}
                     </CatBtn>
@@ -155,7 +155,7 @@ const Category = (props) => {
                     key={edge.node.id}
                     tabIndex={edge.node.id}
                     role="button"
-                    onClick={() => navigate(`/work/${edge.node.slug}`)}
+                    onClick={() => navigate(`/proyectos/${edge.node.slug}`)}
                   >
                     <ImageCardWrapper>
                       <CImageCard
@@ -182,7 +182,7 @@ const Category = (props) => {
                         {edge.node.title}
                       </H3>
                       <SmallHover align="left" color="light" className="image-btn">
-                        View Case Study
+                        Ver Caso de Estudio
                         <SmallHoverIcon />
                       </SmallHover>
                     </ImageContent>

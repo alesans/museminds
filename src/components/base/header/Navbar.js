@@ -4,44 +4,44 @@ import { NWrapper, NavLink, NUl, Li, NavBtn } from '../../../styles';
 
 const Navbar = ({ open }) => {
   return (
-    <NWrapper column="9 / -1" xl="6 / -1" open={open}>
+    <NWrapper column="8 / -1" xl="6 / -1" open={open}>
       <NUl>
         <Li>
           <NavLink
-            to="/company"
+            to="/compania"
             fontWeight="medium"
             activeStyle={{
               color: 'rgba(90, 36, 178)',
             }}
           >
-            Company
+            Compañía
           </NavLink>
         </Li>
         <Li>
           <NavLink
-            to="/services"
+            to="/servicios"
             fontWeight="medium"
             activeStyle={{
               color: 'rgba(90, 36, 178)',
             }}
           >
-            Services
+            Servicios
           </NavLink>
         </Li>
         <Li>
           <NavLink
-            to="/work"
+            to="/proyectos"
             fontWeight="medium"
             activeStyle={{
               color: 'rgba(90, 36, 178)',
             }}
           >
-            Work
+            Proyectos
           </NavLink>
         </Li>
         <Li>
-          <NavBtn to="/contact" fontWeight="medium">
-            Hire us
+          <NavBtn to="/contacto" fontWeight="medium">
+            Contacto
           </NavBtn>
         </Li>
       </NUl>
