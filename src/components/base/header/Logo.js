@@ -7,7 +7,7 @@ const Logo = () => {
   return (
     <Wrapper column="1 / 3" xl="1 / 4" align="center">
       <LogoLink to="/">
-        <Image src={logo} alt="Iluminext logo" />
+        <Image width="90%" src={logo} alt="MuseMinds logo" />
       </LogoLink>
     </Wrapper>
   );

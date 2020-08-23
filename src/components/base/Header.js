@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 
 import Logo from './header/Logo';
+import Locale from './header/Locale';
 import Navbar from './header/Navbar';
 import Burger from './header/Burger';
 
@@ -16,6 +17,7 @@ const Header = () => {
     <HLayout bg="light" pt="base" pb="base" shadow="card">
       <Container forwardRef={node}>
         <Logo />
+        <Locale />
         <Navbar open={open} setOpen={setOpen} />
         <Burger open={open} setOpen={setOpen} />
       </Container>

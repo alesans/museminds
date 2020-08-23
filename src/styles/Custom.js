@@ -27,7 +27,7 @@ import { Pinterest } from '@styled-icons/boxicons-logos/Pinterest';
 import { Twitter } from '@styled-icons/boxicons-logos/Twitter';
 import { Dribbble } from '@styled-icons/boxicons-logos/Dribbble';
 
-import { Icon, Iconsm, Iconlight, BurgerIcon, Wrapper, H1 } from './Theme';
+import { Icon, Iconsm, Iconlight, BurgerIcon, Wrapper, H1, Image } from './Theme';
 
 //🟪🟦🟩 COMPONENTS 🟩🟦🟪
 
@@ -474,4 +474,13 @@ export const Closed = styled(Close)`
 
 export const Opened = styled(MenuAlt3)`
   ${BurgerIcon}
+`;
+
+//🌍🌍🌍 LOCALE 🌍🌍🌍
+
+export const LocaleImage = styled(Image)`
+  width: 1.4rem;
+  margin-right: 0.5rem;
+  margin-top: 0.4rem;
+  vertical-align: middle;
 `;
