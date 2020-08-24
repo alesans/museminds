@@ -4,7 +4,7 @@ import { NWrapper, NavLink, NUl, Li, NavBtn } from '../../../styles';
 
 const Navbar = ({ open }) => {
   return (
-    <NWrapper column="9 / -1" xl="6 / -1" open={open}>
+    <NWrapper column="8 / -1" xl="7 / -1" open={open}>
       <NUl>
         <Li>
           <NavLink

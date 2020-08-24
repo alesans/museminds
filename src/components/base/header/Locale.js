@@ -5,7 +5,7 @@ import { Wrapper, Anchor, LocaleImage } from '../../../styles';
 
 const Logo = () => {
   return (
-    <Wrapper column="3 / 4" xl="10 / 12" align="center">
+    <Wrapper column="3 / 4" md="9 / 10" align="center">
       <Anchor color="body" colorh="primary" href="https://www.es.museminds.com/">
         <LocaleImage src={escr} alt="Locale" />
         ES
